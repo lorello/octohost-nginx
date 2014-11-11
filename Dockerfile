@@ -1,10 +1,9 @@
-FROM octohost/ubuntu:13.10
+FROM lorello/ubuntu:trusty
 
-MAINTAINER Darron Froese "darron@froese.org"
+MAINTAINER LoreLLo <lorenzo.salvadorini@softecspa.it>
 
-RUN apt-get update && apt-get -y install software-properties-common --force-yes
 RUN add-apt-repository -y ppa:nginx/stable
-RUN apt-get -y install nginx
+RUN apt-get -qqy install nginx
 
 RUN mkdir /srv/www
 RUN echo "HTML is working" > /srv/www/nginx-container.html
