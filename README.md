@@ -20,4 +20,4 @@ For a working example, please take a look at the [HTML](https://github.com/octoh
 * based on Ubuntu Trusty
 * Nginx is taken from the stable PPA on Launchpad
 * Document root is set in `/srv/www`
-* A simple test html is placed in `/srv/www/nginx-container.html`, you can safely remove it.
+* A simple test html is placed in `/srv/www/index.html`, you can safely remove it.
