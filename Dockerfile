@@ -1,4 +1,4 @@
-FROM lorello/ubuntu:trusty
+FROM lorello/docker-ubuntu:trusty
 
 MAINTAINER LoreLLo <lorenzo.salvadorini@softecspa.it>
 
